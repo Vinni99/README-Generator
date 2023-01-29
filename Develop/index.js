@@ -39,33 +39,6 @@ const questions = [
     
   ]
 
-// inquirer
-//   .prompt([
-//     {
-//       type: 'input',
-//       message: 'What is your GitHub username?',
-//       name: 'username',
-//     },
-//     {
-//       type: 'checklist',
-//       message: 'What is your Email?',
-//       name: 'email',
-//     },
-//     {
-//       type: 'checklist',
-//       message: 'What is your projects name?',
-//       name: 'title', 
-//     },
-//   ])
-// .then((data) => {
-
-    
-
-//     fs.writeFile('README.md', createHTMLString(data), (err) =>
-//      err ? console.log(err) : console.log('WElcome to my README!'))
-
-// });
-
 function writeToFile (fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);  
 }

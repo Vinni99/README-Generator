@@ -25,3 +25,7 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README...
+
+GitHub Link: https://github.com/Vinni99/README-Generator.git
+
+Video link: https://drive.google.com/file/d/1C7eB0AYEnfK8EoBqkgYs4ORr7rbvAfwx/view
